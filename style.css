@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.input-area {
+    margin-bottom: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+#taskList li span { /* Style for the task text */
+    flex-grow: 1; /* Allow the text to take up available space */
+}
+
+#taskList li button {
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
